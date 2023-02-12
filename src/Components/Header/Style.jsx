@@ -6,6 +6,7 @@ export const Hdiv = styled.div`
   width: 100%;
   height: 560px;
   background: #d7d5ff;
+  
 `;
 export const HdivText = styled.div`
   margin-left: 15%;

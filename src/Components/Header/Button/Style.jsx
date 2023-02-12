@@ -8,14 +8,11 @@ export const BtnH = styled.button`
   height: 50px;
   margin-top: 5%;
   font-family: "lato";
-  font-size: 20px;
+  font-size: 15px;
   color: #ffffff;
   font-weight: bold;
   border: none;
   cursor: pointer;
-  &:hover {
-    transform: scale(1.05);
-  }
   &:active {
     transform: scale(0.98);
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);

@@ -12,7 +12,6 @@ export const HdivText = styled.div`
   width: 389px;
 `;
 export const Hh1 = styled.h1`
-  display: inline-block;
   width: 349px;
   font-size: 36px;
   color: #2b2b2b;
@@ -22,7 +21,7 @@ export const Hp = styled.p`
   color: #555555;
 `;
 export const Himg = styled.img`
-  margin-left: 20%;
+  margin-left: 25%;
   width: 500px;
   height: 359.75px;
 `;

@@ -8,7 +8,7 @@ function Footer() {
     <Ftdiv>
       <Fh1>Entre em contato</Fh1>
       <Form />
-      <ButtonF/>
+      <ButtonF />
     </Ftdiv>
   );
 }

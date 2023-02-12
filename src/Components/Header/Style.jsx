@@ -3,12 +3,11 @@ import styled from "styled-components";
 export const Hdiv = styled.div`
   display: flex;
   align-items: center;
-  justify-content:space-between;
-  
+  justify-content: space-between;
+
   width: 100%;
   height: 560px;
   background: #d7d5ff;
-  
 `;
 export const HdivText = styled.div`
   margin-left: 15%;
@@ -24,7 +23,7 @@ export const Hp = styled.p`
   color: #555555;
 `;
 export const Himg = styled.img`
-position:absolute;
+  position: absolute;
   margin-left: 60%;
   width: 500px;
   height: 359.75px;

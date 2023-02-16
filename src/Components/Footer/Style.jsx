@@ -9,7 +9,6 @@ export const Ftdiv = styled.div`
 `;
 export const Fh1 = styled.h1`
   margin-top: 5%;
-  width: 349px;
   font-size: 32px;
   color: #2b2b2b;
   text-align: center;

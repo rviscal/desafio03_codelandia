@@ -12,6 +12,11 @@ export const DivModal = styled.div`
 export const InpColor = styled.input`
   width: 50px;
   height: 50px;
+  border:none;
+  cursor: pointer;
+ &:hover{
+    transform: scale(1.05)
+ }
 `;
 export const ButtonAply = styled.button`
   width: 75px;

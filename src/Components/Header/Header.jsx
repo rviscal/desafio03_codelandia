@@ -22,9 +22,10 @@ function Header() {
         >
           Selecione a Cor
         </BtnH>
-        <Modal isOpen={opeModal} />
+        
       </HdivText>
       <Himg src={Himage} />
+      <Modal isOpen={opeModal} />
     </Hdiv>
   );
 }

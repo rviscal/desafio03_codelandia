@@ -1,12 +1,13 @@
 import React from "react";
-import { InpColor, ButtonAply, DivModal } from "./Style";
+import {  DivModal, Mh1 } from "./Style";
+import FormM from "./FormM/FormM";
 
 function Modal({ isOpen }) {
   if (isOpen) {
     return (
       <DivModal>
-        <InpColor type="Color" />;
-        <ButtonAply>Aplicar</ButtonAply>
+        <Mh1>Preencha o Formulario</Mh1>
+        <FormM />
       </DivModal>
     );
   }

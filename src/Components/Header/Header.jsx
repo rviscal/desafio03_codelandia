@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Hdiv, Hh1, Hp, Himg, HdivText } from "./Style";
 import Himage from "../../Assets/HeaderImg.png";
-import Buttonh from "./Button/Button";
+import { BtnH } from "./Button/Style";
+import Modal from "./Modal/Modal";
 
 function Header() {
+  const [opeModal, setOpenModal] = useState(false);
+
   return (
     <Hdiv>
       <HdivText>
@@ -12,7 +15,14 @@ function Header() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu
           massa sit amet augue consectetur ullamcorper non ac massa.
         </Hp>
-        <Buttonh />
+        <BtnH
+          onClick={() => {
+            setOpenModal(true);
+          }}
+        >
+          Selecione a Cor
+        </BtnH>
+        <Modal isOpen={opeModal} />
       </HdivText>
       <Himg src={Himage} />
     </Hdiv>

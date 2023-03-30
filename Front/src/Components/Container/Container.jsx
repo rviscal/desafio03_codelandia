@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { CtDiv, BoxDiv, ColorDiv, H1box, Pbox } from "./Style";
-import { Data } from "./Data";
 import { getCards } from "../../services/cards-api";
 
 function Container() {
